@@ -1,16 +1,126 @@
-# React + Vite
+# ✅ React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive **To-Do List** application built with **React.js**, designed to help you manage your daily tasks efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 📸 Screenshot
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---<img width="2166" height="635" alt="image" src="https://github.com/user-attachments/assets/daa69296-20f5-4512-bac7-da64413801b0" />
+
+
+## 🛠️ Features
+
+- ➕ Add new tasks
+- ✔️ Mark tasks as complete / incomplete
+- 🗑️ Delete tasks
+- 📋 View all, active, and completed tasks
+- 💾 Persistent state (if localStorage is used)
+- 📱 Responsive design
+
+---
+
+## 🧰 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React.js   | UI library |
+| JavaScript (ES6+) | Core logic |
+| CSS / Tailwind | Styling |
+| localStorage | Data persistence (if applicable) |
+
+---
+
+## 📁 Project Structure
+
+```
+React-T0-do/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── TodoInput.jsx
+│   │   ├── TodoItem.jsx
+│   │   └── TodoList.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/shadows12-star/React-T0-do.git
+cd React-T0-do
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm start
+```
+
+4. Open your browser and navigate to `http://localhost:3000`
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+This creates an optimized production build in the `build/` folder.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the project
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**shadows12-star**  
+GitHub: [@shadows12-star](https://github.com/shadows12-star)
+
+---
+
+> ⭐ If you found this project helpful, please give it a star!
